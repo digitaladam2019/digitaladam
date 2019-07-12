@@ -1,0 +1,42 @@
+.bg-image{
+    background-image: url(/assets/bginfo.jpg);
+    background-size:     cover;                      /* <------ */
+}
+
+.front-adam{
+    max-width: 50%;
+    min-width: 50%;
+    position: absolute;
+    left: 500px;
+    top:100px;
+    z-index: 2;
+} 
+.instruction{
+    max-width: 20%;
+    min-width: 20%;
+}
+
+.kelip{
+        max-width: 11%;
+        min-width: 11%;
+        position: absolute;
+        left: 877px;
+        top:313px;
+        z-index: 3;
+    
+}
+.mainframe{
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    left: 500px;
+    top:100px;
+    z-index: 100;
+}
+
+.adam{
+    position: absolute;
+    left: 700px;
+    top:700px;
+    z-index: 10;
+}
